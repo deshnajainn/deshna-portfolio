@@ -3,7 +3,7 @@ export const personalInfo = {
   firstName: "Deshna",
   initials: "DJ",
   roles: ["Software Developer", "Full-Stack Engineer", "React & Node.js Dev", "Frontend + Backend"],
-  tagline: "I build across the stack — from pixel to API to database.",
+  tagline: "Software Developer building reliable backend systems, REST APIs, and full-stack web applications.",
   location: "Indore, India",
   education: "B.Tech CSE · Acropolis Institute of Technology and Research, Indore · 2022–2026",
   company: "KatalX Technologies (Signalz)",
@@ -17,8 +17,9 @@ export const personalInfo = {
 
 export const about = {
   paragraphs: [
-    "Fresh out of Acropolis Indore (B.Tech CSE, 2022–2026). I stepped into my software engineering internship at KatalX Technologies just one week after my final exams.",
-    "My core strength is backend engineering — designing database schemas, architecting REST APIs, wiring up real-time caching with Redis, and integrating third-party services. I also build clean frontend interfaces with React and Next.js when needed. Production codebase. Real pull requests. Real users.",
+    "I'm a Computer Science graduate from Acropolis Institute of Technology and Research, Indore, with hands-on experience in software development.",
+    "Currently, I'm gaining practical experience at KatalX Technologies (Signalz), working on backend development, REST APIs, third-party integrations, and messaging workflows using Node.js, TypeScript, Express.js, Redis, and SQL databases.",
+    "I enjoy solving problems, building reliable applications, and continuously improving my skills across backend and full-stack development.",
   ],
 };
 
