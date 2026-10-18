@@ -30,16 +30,14 @@ export default function Contact() {
               06 / Contact
             </p>
             <h2
-              className="font-black text-5xl md:text-6xl lg:text-7xl text-[#1A1A2E] leading-none tracking-tighter mb-6"
+              className="font-black text-4xl sm:text-5xl md:text-6xl text-[#1A1A2E] leading-tight tracking-tight mb-6"
               style={{ fontFamily: "var(--font-syne)" }}
             >
-              Let&apos;s build
-              <br />
-              <span className="text-[#E84393]">something.</span>
+              Good Things Start With a{" "}
+              <span className="text-[#E84393]">Conversation.</span>
             </h2>
-            <p className="text-[#1A1A2E]/60 text-lg max-w-md leading-relaxed">
-              Open to backend roles, full-stack opportunities, and interesting problems.
-              Don&apos;t overthink the message — just say hi.
+            <p className="text-[#1A1A2E]/70 text-base md:text-lg max-w-xl leading-relaxed">
+              I&apos;m always up for discussing software, exploring new ideas, and solving real-world problems through technology. Whether it&apos;s an opportunity, a collaboration, or just a good conversation, feel free to reach out.
             </p>
 
             {/* Availability indicator */}

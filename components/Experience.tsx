@@ -23,8 +23,8 @@ export default function Experience() {
             className="font-black text-4xl md:text-5xl text-[#1A1A2E] leading-tight tracking-tight"
             style={{ fontFamily: "var(--font-syne)" }}
           >
-            Real work.{" "}
-            <span className="text-[#E84393]">Real production.</span>
+            experience —{" "}
+            <span className="text-[#E84393]">out in the field</span>
           </h2>
         </motion.div>
 

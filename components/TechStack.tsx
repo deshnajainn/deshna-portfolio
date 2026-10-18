@@ -246,8 +246,7 @@ export default function TechStack() {
             className="font-black text-4xl md:text-5xl text-[#F5F0E8] leading-tight tracking-tight"
             style={{ fontFamily: "var(--font-syne)" }}
           >
-            Tools I actually{" "}
-            <span className="text-[#FF6B35]">reach for.</span>
+            my <span className="text-[#FF6B35]">toolkit</span>
           </h2>
         </motion.div>
 

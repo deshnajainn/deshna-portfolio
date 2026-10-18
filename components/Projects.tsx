@@ -29,8 +29,7 @@ export default function Projects() {
             className="font-black text-4xl md:text-5xl text-[#F5F0E8] leading-tight tracking-tight"
             style={{ fontFamily: "var(--font-syne)" }}
           >
-            Built and shipped.{" "}
-            <span className="text-[#FF6B35]">More loading.</span>
+            things i&apos;ve <span className="text-[#FF6B35]">built</span>
           </h2>
         </motion.div>
 
