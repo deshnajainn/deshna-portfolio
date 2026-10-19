@@ -29,7 +29,7 @@ export default function Projects() {
             className="font-black text-4xl md:text-5xl text-[#F5F0E8] leading-tight tracking-tight"
             style={{ fontFamily: "var(--font-syne)" }}
           >
-            things i&apos;ve <span className="text-[#FF6B35]">built</span>
+            Things I&apos;ve <span className="text-[#FF6B35]">Built</span>
           </h2>
         </motion.div>
 
