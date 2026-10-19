@@ -99,16 +99,15 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="grid grid-cols-3 border-2 border-[#1A1A2E]"
+              className="grid grid-cols-2 border-2 border-[#1A1A2E]"
             >
               {[
                 { num: "4+", label: "months in prod" },
                 { num: "3+", label: "systems shipped" },
-                { num: "1wk", label: "after final exams" },
               ].map((stat, i) => (
                 <div
                   key={i}
-                  className={`p-6 text-center ${i < 2 ? "border-r-2 border-[#1A1A2E]" : ""}`}
+                  className={`p-6 text-center ${i < 1 ? "border-r-2 border-[#1A1A2E]" : ""}`}
                 >
                   <p
                     className="font-black text-3xl text-[#E84393]"

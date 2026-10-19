@@ -107,15 +107,4 @@ export const projects = [
     liveUrl: "#",
     githubUrl: "#",
   },
-  {
-    title: "Something Better — Coming Soon",
-    subtitle: "Personal Project",
-    description:
-      "Working on my next project. It'll be bigger, more polished, and actually worth bragging about.",
-    tags: [],
-    status: "soon",
-    nda: false,
-    liveUrl: "",
-    githubUrl: "",
-  },
 ];

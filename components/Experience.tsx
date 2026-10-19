@@ -3,6 +3,46 @@
 import { motion } from "framer-motion";
 import { experience } from "@/lib/data";
 
+// Helper function to subtly bold specific technical keywords without altering wording
+function highlightTechKeywords(text: string) {
+  // Ordered by length descending so multi-word terms match before sub-terms
+  const keywords = [
+    "Firebase Cloud Messaging (FCM)",
+    "Firebase Cloud Messaging",
+    "WhatsApp messaging APIs",
+    "WhatsApp API",
+    "Express.js",
+    "TypeScript",
+    "JavaScript",
+    "REST API",
+    "Node.js",
+    "Postman",
+    "DBeaver",
+    "GitHub",
+    "Axios",
+    "Redis",
+    "Git",
+    "SQL",
+    "FCM",
+  ];
+
+  // Build regex matching any of the keywords
+  const escaped = keywords.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const regex = new RegExp(`(${escaped.join("|")})`, "g");
+
+  const parts = text.split(regex);
+  return parts.map((part, index) => {
+    if (keywords.includes(part)) {
+      return (
+        <strong key={index} className="font-bold text-[#1A1A2E]">
+          {part}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
 export default function Experience() {
   return (
     <section id="experience" className="border-b-4 border-[#1A1A2E] py-24 md:py-32">
@@ -77,10 +117,12 @@ export default function Experience() {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.3, delay: 0.25 + j * 0.06 }}
-                      className="flex items-start gap-3 text-[#1A1A2E]/70"
+                      className="flex items-start gap-3 text-[#1A1A2E]/75"
                     >
                       <span className="text-[#FF6B35] font-bold mt-0.5 flex-shrink-0">→</span>
-                      <span className="leading-relaxed text-sm">{point}</span>
+                      <span className="leading-relaxed text-sm">
+                        {highlightTechKeywords(point)}
+                      </span>
                     </motion.li>
                   ))}
                 </ul>
